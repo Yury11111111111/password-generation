@@ -1,0 +1,46 @@
+.App {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10%;
+  background-color: rgb(49, 49, 49);
+  height: 110px;
+  width: 700px;
+  border-radius: 10px;
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+  .password {
+    width: 500px;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 1;
+    transition: opacity 0.2s;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .button {
+      height: 30px;
+      width: 170px;
+      border-radius: 30px;
+      background: #d3d3d3;
+  }
+  .slider {
+    width: 500px;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 30px;
+  }
+  #value {
+    margin-left: 240px;
+  }
+}
